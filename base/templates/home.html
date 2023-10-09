@@ -1,0 +1,16 @@
+{% extends 'index.html' %} {% block content %}
+
+<div class="container">
+  <h2 class="text-center mt-5">Welcome to Supplier Application</h2>
+  <p class="p-3 text-center">
+    Supplier Application is a powerful platform designed to simplify the process
+    of creating and managing supplier accounts.
+  </p>
+  <div class="text-center">
+    <a href="{% url 'create' %}" class="btn btn-dark text-center"
+      >Get Started</a
+    >
+  </div>
+</div>
+
+{% endblock %}
